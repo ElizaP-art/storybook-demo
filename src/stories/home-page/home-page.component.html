@@ -1,0 +1,38 @@
+<div class="home-page-layout">
+  <div class="home-page-container">
+    <div class="application-selection-container">
+      <ag-carousel class="agilent-spsd-platform-ui application-carousel" itemsPerSlide='4' singleSlideOffset="true" interval="false" isAnimated="true">
+        <ag-slide *ngFor="let app of applicationTiles" class="application-slide">
+          <!-- In AWF-4748- neon prototype -the ag-tile is replaced by an 'item' component with simple html  -->
+          <!-- Will keep this as is for now as it works. If required in future, we can change to a simple item component -->
+          <ag-tile
+              [ngClass]="{'col': true, 'application-tile': true, 'disabled': app.appMetaData.disabled}"
+              [attr.id]="app.appMetaData.displayName"
+              [disabled]="app.appMetaData.disabled"
+              [header]="app.appMetaData.displayName"
+              [description]="app.appMetaData.description"
+              [icon]="app.icon"
+              [tooltip]="app.appMetaData.tooltip"
+              [selected]="app.selected"
+              (click)="onApplicationSelected(app)"></ag-tile>
+        </ag-slide>
+      </ag-carousel>
+    </div>
+    <div class="document-selection-container">
+      <div class="document-selection-grid">
+
+        <div class="document-selection-content">
+
+          <div class="document-selection">
+
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>

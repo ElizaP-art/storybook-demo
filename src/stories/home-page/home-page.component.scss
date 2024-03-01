@@ -1,0 +1,79 @@
+// @import '@agilent/ui-element/assets/style/color-constants';
+
+// .home-page-layout {
+//     display: grid;
+//     grid-gap: 10px;
+//     height:100%;
+//     padding: 0px;
+// }
+
+// .home-page-container {
+//     height: 100%;
+//     overflow: hidden;
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .application-selection-container {
+//     padding-bottom: 2px;
+// }
+
+// .document-selection-container {
+//     overflow: auto;
+//     height: 100%;
+// }
+
+
+// .document-selection-grid {
+//     display: grid;
+//     grid-template-columns: [leftColumn] auto [mainContent] 1fr;
+//     grid-template-rows: 1fr;
+//     height: 100%;
+// }
+
+
+// .toolbarMenuButtons {
+//     padding-bottom: 10px;
+//     padding-top: 10px;
+// }
+// ::ng-deep {
+//     .ag-drawer-content {
+//         overflow-x: hidden;
+//     }
+// }
+
+// .document-selection-content {
+//     grid-column: 2;
+//     grid-row: 1;
+//     overflow: auto;
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-template-rows: auto 56px;
+//     position: relative;
+// }
+
+// .filter-panel {
+//     grid-column: 3;
+//     grid-row: 1;
+//     background-color: var(--at-blue-pale-luminous);
+// }
+// .sort-selection {
+//     min-width: 175px;
+//     padding-top: 6px;
+//     font-weight: bold;
+// }
+// .filter-component {
+//     padding-right: 20px;
+//     padding-top: 15px;
+//     margin-bottom: -5px;
+//     min-width: 200px;
+// }
+// .document-selection {
+//     padding: 20px;
+//     height: 100%;
+// }
+
+// .ag-home-page-side-nav {
+//     overflow-y: auto;
+// }
